@@ -1,0 +1,11 @@
+
+CREATE TABLE board(
+	seq 	number,
+	title	varchar2(50), 
+	writer  varchar2(30), 
+	content varchar2(200),
+	regdate date,
+	cnt		number
+);
+
+CREATE SEQUENCE board_seq;
